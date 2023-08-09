@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to left, hsl(207, 36%, 37%), rgb(0, 9, 128));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whitebg {
+    /* border: 1px solid red; */
+    background: hsl(212, 45%, 89%);
+    /* height: 75vh; */
+    /* width: 23vw; */
+    /* margin: auto; */
+    /* margin-top: 40px; */
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.whitebg .avatar {
+    /* border: 1px solid red; */
+    display: block;
+    margin: auto;
+    max-width: 305px;
+    /* height: 295px; */
+    border-radius: 20px;
+    /* box-sizing: border-box; */
+}
+
+h1 {
+    border: 1px solid red;
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: hsl(218, 44%, 22%);
+}
+
+h2 {
+    /* border: 1px solid red; */
+    width: 50%;
+    /* display: block; */
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1em;
+    color: hsl(220, 15%, 55%);
+}
